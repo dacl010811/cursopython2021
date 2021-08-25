@@ -36,11 +36,12 @@ variable_4 = 10.5 # Variable de tipo Float
 variable_5 = True # variable de tipo bool
 variable_5 = False # variable de tipo bool
 
+print("Estas son las variables : ", variable_1, variable_2, variable_3, variable_4)
 
 #Funciones predefinidas de Python
-print() # Sirve para enviar a  consola los mensajes
-id()   #Me devuelve la posicion de menoria en donde esta almacena la variable
-type() # Tipo de dato q contiene la variable
+#print() # Sirve para enviar a  consola los mensajes
+#id()   #Me devuelve la posicion de menoria en donde esta almacena la variable
+#type() # Tipo de dato q contiene la variable
 
 # Para comentar el  codigo  tenemos
 # Comentarios de 1 sola linea con el signo "#"
