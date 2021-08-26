@@ -43,7 +43,7 @@ print("Menu Principal 1.- Suma :  2.- Resta")
 
 print(r"C:\Users\Tdelita\nercop\rombre") #raw
 
-#Multilinea
+#Impimir Multilinea
 
 print("Una linea\nsegunda linea\ntercera linea\ncuarta linea\n")
 
