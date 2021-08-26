@@ -1,7 +1,7 @@
 #Definir cadenas o String (
 #
 
-cadena_1 = "Mi pelicula favorita es :"   # Tipado dinamico  : 
+cadena_1 = "Mi pelicula favorita es :"   # Tipado dinamico  :
 cadena_2 = "Avangers"
 
 # Para concatenar utilizamos   signo "+"
