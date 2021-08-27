@@ -39,7 +39,7 @@ print("La cadena final es Forma4 : {}, {} , {}".format(suma,cadena_1,cadena_2,ca
 
 #Print de caracteres especiales: Se utiliza para dar formato a las cadenas o strings
 # \n \r \t
-print("Menu Principal 1.- Suma :  2.- Resta")
+print("Menu \t Principal 1.- Suma :  2.- Resta")
 
 print(r"C:\Users\Tdelita\nercop\rombre") #raw
 
@@ -51,6 +51,47 @@ print("""Una linea
 segunda linea
 tercera linea
 cuarta linea""")
+
+#Operacion multiplicacion  (*)
+
+cadena_1 = "*"
+cadena_2 = "C:NombreCarpeta\n"
+
+cadena_3 =  10 * "***\t"
+print(cadena_3)
+
+# Indices en las cadenas
+
+# "P   Y   T   H   O   N"
+#  0   1   2   3   4   5  >>>>>>> Ascendente
+#  -6    -5    -4    -3    -2   -1 >>>Descendente
+
+CADENA= "ESTE PYTHON2"
+
+print(CADENA[1],CADENA[5],CADENA[6])
+print(CADENA[1])
+print(CADENA[2])
+print(CADENA[3])
+
+
+#Slicing : Extraer subcadenas de una cadena principal
+palabra = "Hola Mundo"
+#          0123456789
+
+print(len(palabra))
+print(palabra[0:10])
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
