@@ -74,15 +74,42 @@ lista_nueva = [True, False]
 lista_general.append( lista_nueva )
 print(f"Lista Modificada es : {lista_general}")
 
-
 print(len(lista_general))
-
 print(lista_general[len(lista_general)-1])
 
+# Vacear un lista:  Borrar todos los elementos de la lista
 
+print(f"Lista Original: \n {lista_general} ")
 
+lista_general = []
+print("Lista Vacia: ", lista_general)
 
+# Definimos una cadena :   "Hola Mundo Python"
 
+frase_1 =  "Hola Mundo Python"
+
+# Conversion de Strings a list------>  funcion list()
+l = list(frase_1)
+
+print(type(l))
+print(l)
+
+# Listas Anidadas
+lista_a = [1,2,3]
+lista_b = [4,5,6]
+lista_c = [7,8,9]
+lista_d = ['a','b','c']
+
+#Listas anidadas
+resultado =  [lista_a, lista_b, lista_c, lista_d]
+
+print("Listas Anidadas")
+print(resultado)
+
+print(resultado[0][-1])
+print(resultado[1][2:])
+print(resultado[2][-1])
+print(resultado[3][2:])
 
 
 
