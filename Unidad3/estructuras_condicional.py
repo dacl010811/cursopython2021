@@ -4,7 +4,8 @@
 if True:
     print("Se cumple la condicion")
     print("A")
-    variable_1 =  12
+
+variable_1 =  12
 
 #Varios If simples Secuenciales
 a = 2
