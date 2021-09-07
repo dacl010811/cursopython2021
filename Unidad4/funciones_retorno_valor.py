@@ -35,7 +35,7 @@ def saludar_multiple():
     profesion = "Ing"
 
     return  "Hola",nombre,apellido,profesion,[10,34.5,True],(1,2,3),{'a':'A'}
-#              0      1       2        3                                     
+#              0      1       2        3
 
 #Asignicacion de variables en una sola linea: Posicional
 
@@ -44,5 +44,16 @@ var_1, var_2 = saludar_multiple()[0], saludar_multiple()[1]
 
 print(var_1)
 print(var_2)
+
+#Envio de valores
+
+def  suma(a,b):
+    suma_total = a + b
+    return suma_total   # Cualquier tipo de dato : int, float, String, [[]], (), {a,b},{a:9, b:4545}
+
+#Invocacion por nombre del parametro
+total = suma(100,500)
+total_1 = suma(a=25011,b=11700)
+
 
 
