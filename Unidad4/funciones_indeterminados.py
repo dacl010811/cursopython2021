@@ -47,6 +47,7 @@ def sumar_args(*args):
     return suma_total
 
 print(f"El resultado de sumar_args : {sumar_args()}")
+print(f"El resultado de sumar_args : {sumar_args()}")
 
 
 
