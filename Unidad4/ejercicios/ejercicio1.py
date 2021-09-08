@@ -132,4 +132,6 @@ def menu():
         else:
             print("La operacion con la opcion enviada no es valida : Error: {opcion}")
 
+#Invocacion al menu principal
 menu()
+
