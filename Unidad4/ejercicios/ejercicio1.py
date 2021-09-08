@@ -71,7 +71,7 @@ def menu():
             altura = float(input("Ingrese la altura: \n"))
             print (f"el area del rectangulo de :  {base} * {altura} =  {area_rectangulo_a(base,altura)} ")
         elif opcion == 4:
-            pass
+            print("")
         elif opcion == 10:
             break
         else:
