@@ -17,21 +17,6 @@ from modulospy.saludos import Hola
 from modulospy.saludos import VARIABLE_GLOBAL
 
 #Seccion de Invocacion
-saludar("Darwin Augusto Calle L")
+saludar("Darwin Calle")
 hola = Hola("Juan")
 hola.saludar()
-
-
-def recortar(numero_recortar,limite_inferior, limite_superior):
-
-    if  numero_recortar < limite_inferior:
-        return limite_inferior
-    elif numero_recortar > limite_superior:
-        return limite_superior
-    else:
-        return numero_recortar
-
-#Invocacion
-print (recortar(15,0,10)) #10
-
-
